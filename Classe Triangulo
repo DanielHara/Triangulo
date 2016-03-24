@@ -1,0 +1,27 @@
+class Triangulo extends Shape {
+  private int lado1, lado2, lado 3
+  
+  Triangulo (String aName)
+  {
+    super(aName);     //Construtor
+    lado1 = 1;
+    lado1 = 1;
+    lado1 = 1;
+  }
+
+  public void SetLados (int a, int b, int c)
+  {
+    if (a < b+c && b < a + c && c < a + b)    //Verifica se os lados formam um triângulo
+    {
+      lado1 = a;
+      lado1 = b;   
+      lado1 = c;
+    }
+    else System.out.print.ln("Valores inválidos!");
+  }
+  public float CalculateArea ()
+  {
+    return sqrt((a+b+c)* (-a+b+c) *(a-b+c)* (a+b-c) );    //Calcula a área
+  }
+
+}
